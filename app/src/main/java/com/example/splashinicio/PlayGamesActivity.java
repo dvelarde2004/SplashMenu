@@ -39,8 +39,6 @@ public class PlayGamesActivity extends AppCompatActivity {
         botonSnakeGame.setOnClickListener(v -> {
             seleccionarBoton(botonSnakeGame);
             // Abrir el juego Snake
-            Intent intent = new Intent(PlayGamesActivity.this, com.example.sakeclassic.SnakeGameActivity.class);
-            startActivity(intent);
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         });
 

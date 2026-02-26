@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "splashinicio"
 include(":app")
-include(":snakegame")
